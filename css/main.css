@@ -2,6 +2,7 @@ body {
 	font-family: Arial, sans-serif;
 	padding: 0;
 	margin: 0;
+	color: #222222;
 }
 .clearfix:after {
 	content: '';
@@ -69,5 +70,44 @@ h1 {
 	font-weight: bold;
 	font-size: 18px;
 	margin-top: 50px;
+}
+.title {
+	padding-top: 115px;
+}
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase; 
+	margin: 0;
 
+}
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.services {
+	margin-top: 80px;
+}
+.services__item {
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.services__item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.services__item p {
+	font-size: 14px;
+	color: #777777;
+	line-height: 1.55em;
+}
+.services__item:last-child {
+	float: right;
+}
+.services__item:nth-child(2) {
+	margin-left: 60px;
 }
