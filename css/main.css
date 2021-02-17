@@ -111,3 +111,22 @@ h1 {
 .services__item:nth-child(2) {
 	margin-left: 60px;
 }
+#services {
+	padding-bottom: 120px;
+}
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+.works {
+	margin-top: 70px;
+}
+.works img {
+	float: left;
+}
+.works img:last-child {
+	float: right;
+}
+.works img:nth-child(2) {
+	margin-left: 30px;
+}
