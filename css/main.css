@@ -3,9 +3,71 @@ body {
 	padding: 0;
 	margin: 0;
 }
-
+.clearfix:after {
+	content: '';
+	display: table; 
+	width: 100%;
+	clear: both;
+} 
 header {
 	background: url(../img/first-bg.jpg) no-repeat center top / cover;
-	height: 600px;
-	
+	padding-bottom: 160px;
+}
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+.logo {
+	margin-top: 41px;
+	float: left;
+}
+nav {
+	float: right;
+	margin-top: 45px;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float:  left;
+	display: block;
+	margin-right: 41px;
+	font-size: 14px;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.titles__first {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+h1 {
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto; 
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+
 }
